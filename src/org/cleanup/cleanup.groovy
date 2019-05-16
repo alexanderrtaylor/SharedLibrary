@@ -1,5 +1,3 @@
-package cleanup
-
 cleanup {
 post {
 	always {
