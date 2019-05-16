@@ -1,0 +1,7 @@
+cleanup {
+post {
+	always {
+		cleanWs()
+		}
+	}
+}
