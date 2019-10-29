@@ -1,5 +1,5 @@
 def call(config) {
-  withCredentials([usernamePassword(credentialsId: "5fb5b459-dc80-4be9-a570-b0e419a5a35f", passwordVariable: "AWS_SECRET_ACCESS_KEY", usernameVariable: "AWS_ACCESS_KEY_ID")]) {
+  withCredentials([usernamePassword(credentialsId: "ff563f73-d280-4e99-a21d-0fb1a18ea795", passwordVariable: "AWS_SECRET_ACCESS_KEY", usernameVariable: "AWS_ACCESS_KEY_ID")]) {
       sh script:libraryResource("scripts/deploy/display.sh")
   } 
 }
