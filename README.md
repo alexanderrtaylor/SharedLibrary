@@ -1,2 +1,2 @@
 This is a change to the readme for Gauntlet:
-Change 6
+Change 7
